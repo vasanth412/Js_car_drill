@@ -3,6 +3,9 @@
 
 
 export default function problem5( year, inventory ){
+    if(inventory.length===0){
+        return 0;
+      }
     var count = 0;
     var old_cars = [];
 

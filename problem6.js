@@ -4,6 +4,9 @@
 
 
 export default function problem6(inventory){
+    if(inventory.length===0){
+        return [];
+      }
     var brand = [];
 
     for(let i=0; i<inventory.length; i++){

@@ -3,6 +3,9 @@
 
 
 export default function problem3(inventory){
+    if(inventory.length===0){
+        return [];
+      }
     var carModels = [];
     for(let i=0; i<inventory.length; i++){
         let check = 0;
