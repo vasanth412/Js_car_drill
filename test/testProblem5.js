@@ -6,5 +6,4 @@ var year = problem4(inventory);
 var old_cars = problem5(year, inventory);
 
 console.log("Old car models: "+old_cars.old_cars);
-console.log("\n");
 console.log("Old car counts: "+old_cars.count);

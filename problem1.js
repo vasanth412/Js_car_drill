@@ -9,6 +9,5 @@
     }
     let carID = 33;
     const car = inventory[carID-1];
-    const carDetails = "Car 33 is a "+car.car_year+" "+car.car_make+" "+car.car_model;
-    return carDetails;
+    return car;
 }

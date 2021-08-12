@@ -14,7 +14,5 @@ export default function problem6(inventory){
             brand.push( inventory[i]);
         }
     }
-
-    let result_Brands = JSON.stringify(brand);
-    return result_Brands;
+    return brand;
 }
